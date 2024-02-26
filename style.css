@@ -2,7 +2,7 @@
 
 .navbar {
   padding: 2rem;
-  background-color: grey;
+  background-color: #8E7AB5;
   font-weight: bold;
 }
 
@@ -38,7 +38,7 @@ h1 {
 }
 .seccion-oscura {
   color: white;
-  background-color: #1b1b32;
+  background-color: #8E7AB5;
 
 }
 
@@ -85,10 +85,11 @@ h1 {
 }
 
 .hero-imagen-desarrollador {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   margin: 20px;
+  
 }
 
 .hero-principal h2 {
@@ -102,6 +103,7 @@ h1 {
 .sobre-mi {
   height: 500px;
   padding: 10px;
+  background-color: #8E7AB5;
 }
 
 
@@ -130,13 +132,13 @@ h1 {
 
 .experiencia .columna:hover {
   color:white;
-  background-color: #1b1b32
+  background-color: #B784B7
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
-  background-color: #0a0a23;
+  color: #EEA5A6;
+  background-color: #8E7AB5;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -229,7 +231,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: #7ade30;
+  background-color: #B784B7;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
