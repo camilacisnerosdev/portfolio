@@ -101,7 +101,7 @@ h1 {
 /* Sobre mi*/
 
 .sobre-mi {
-  height: 500px;
+  min-height: 500px;
   padding: 10px;
   background-color: #8E7AB5;
 }
@@ -156,9 +156,10 @@ h1 {
 }
 
 .badge {
-  margin: 
-  5px;
+  margin: 5px;
 }
+
+
 
 
 
@@ -190,6 +191,9 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  padding: 10px;
 
 }
 
@@ -260,11 +264,12 @@ h1 {
 
 .contacto button:hover {
   background-color: white;
-  color: black;
+  color: #8E7AB5;
+  border-color: #8E7AB5;
 }
 
 .contacto button i {
-  color: white;
+  color: #8E7AB5;
   font-size: 1.3rem;
   transition: all 0.2s ease-in-out;
 }
@@ -276,8 +281,9 @@ h1 {
 /* Pie de pagina (footer) */
 
 footer {
-  min-height: 500px;
+  padding: 50px 20px;
 }
+
 
 .footer-logo {
   height: 80px;
